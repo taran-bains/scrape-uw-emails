@@ -1,0 +1,62 @@
+# Configuration files with credentials
+config.py
+
+# Generated email lists
+email_scrape/emails.txt
+email_scrape/selected*.txt
+email_scrape/remaining*.txt
+
+# Log files
+logs/*.log
+reports/email_campaign_report_*.txt
+
+# Keep directories but exclude their contents
+!logs/.gitkeep
+!reports/.gitkeep
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Chrome driver
+chromedriver
+chromedriver.exe
+
+# Temporary files
+*.tmp
+*.temp
