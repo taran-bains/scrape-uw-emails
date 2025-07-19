@@ -41,8 +41,8 @@ This tool consists of two main components:
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
-   cd uw-directory
+   git clone https://github.com/taran-bains/scrape-uw-emails.git
+   cd scrape-uw-emails
    ```
 
 2. **Run the automated setup:**
